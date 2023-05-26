@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Refinator.Facades", "Refinator.Facades\Refinator.Facades.csproj", "{5402B2B3-10F4-4FD0-BE45-601EDA734645}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Refinator.Repositories", "Refinator.Repositories\Refinator.Repositories.csproj", "{E79CF0EC-8B22-491E-B099-116CA6AB9F89}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Refinator.Models", "Refinator.Models\Refinator.Models.csproj", "{3836D001-6DC9-417D-A5EA-E44F8BDF55F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D556D071-ECAF-47F8-BF8A-4844F10A5F55}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Refinator.IRepositories", "Refinator.IRepositories\Refinator.IRepositories.csproj", "{AAC9357F-435B-4CC3-9581-E6528D227E77}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_App", "1_App", "{D98B0111-CEC5-4B91-9931-2E2FC6E772EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2_Facades", "2_Facades", "{B72235CD-2C8E-4DF7-8C20-1ADE81BFF835}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3_Repositories", "3_Repositories", "{0B906097-B543-41B5-AA40-4A6BDF54E186}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0_Core", "0_Core", "{1A490384-1804-4AD3-B7B1-2AD409789CE5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Refinator.IFacades", "Refinator.IFacades\Refinator.IFacades.csproj", "{2D0323D6-AFD8-4B5F-B326-9D99C9519BD1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4_Entities", "4_Entities", "{22C57963-8E72-4906-94B7-3BB1350F8BFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Refinator.Facades.Tests", "Refinator.Facades.Tests\Refinator.Facades.Tests.csproj", "{6A08ED44-1DA6-4492-BD70-34016C7A2C35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Refinator.AppServer", "Refinator.AppServer\Refinator.AppServer.csproj", "{25E4D9F2-0503-4A69-A356-01F2FED86BEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5402B2B3-10F4-4FD0-BE45-601EDA734645}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5402B2B3-10F4-4FD0-BE45-601EDA734645}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5402B2B3-10F4-4FD0-BE45-601EDA734645}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5402B2B3-10F4-4FD0-BE45-601EDA734645}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E79CF0EC-8B22-491E-B099-116CA6AB9F89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E79CF0EC-8B22-491E-B099-116CA6AB9F89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E79CF0EC-8B22-491E-B099-116CA6AB9F89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E79CF0EC-8B22-491E-B099-116CA6AB9F89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3836D001-6DC9-417D-A5EA-E44F8BDF55F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3836D001-6DC9-417D-A5EA-E44F8BDF55F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3836D001-6DC9-417D-A5EA-E44F8BDF55F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3836D001-6DC9-417D-A5EA-E44F8BDF55F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAC9357F-435B-4CC3-9581-E6528D227E77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAC9357F-435B-4CC3-9581-E6528D227E77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAC9357F-435B-4CC3-9581-E6528D227E77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAC9357F-435B-4CC3-9581-E6528D227E77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D0323D6-AFD8-4B5F-B326-9D99C9519BD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D0323D6-AFD8-4B5F-B326-9D99C9519BD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D0323D6-AFD8-4B5F-B326-9D99C9519BD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D0323D6-AFD8-4B5F-B326-9D99C9519BD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A08ED44-1DA6-4492-BD70-34016C7A2C35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A08ED44-1DA6-4492-BD70-34016C7A2C35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A08ED44-1DA6-4492-BD70-34016C7A2C35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A08ED44-1DA6-4492-BD70-34016C7A2C35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25E4D9F2-0503-4A69-A356-01F2FED86BEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25E4D9F2-0503-4A69-A356-01F2FED86BEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25E4D9F2-0503-4A69-A356-01F2FED86BEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25E4D9F2-0503-4A69-A356-01F2FED86BEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5402B2B3-10F4-4FD0-BE45-601EDA734645} = {B72235CD-2C8E-4DF7-8C20-1ADE81BFF835}
+		{E79CF0EC-8B22-491E-B099-116CA6AB9F89} = {0B906097-B543-41B5-AA40-4A6BDF54E186}
+		{3836D001-6DC9-417D-A5EA-E44F8BDF55F4} = {1A490384-1804-4AD3-B7B1-2AD409789CE5}
+		{AAC9357F-435B-4CC3-9581-E6528D227E77} = {0B906097-B543-41B5-AA40-4A6BDF54E186}
+		{2D0323D6-AFD8-4B5F-B326-9D99C9519BD1} = {B72235CD-2C8E-4DF7-8C20-1ADE81BFF835}
+		{6A08ED44-1DA6-4492-BD70-34016C7A2C35} = {B72235CD-2C8E-4DF7-8C20-1ADE81BFF835}
+		{25E4D9F2-0503-4A69-A356-01F2FED86BEF} = {D98B0111-CEC5-4B91-9931-2E2FC6E772EC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2EB2A828-F585-40A3-8A72-A157DC608A93}
+	EndGlobalSection
+EndGlobal
